@@ -141,6 +141,7 @@ nav > ul > li {
 }
 
 .back-img-container {
+    display: block;
   background: url("../images/5T2A6080.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -224,7 +225,10 @@ footer {
   }
 }
 
-@media screen and (min-width: 300px) {
+@media screen and (min-width: 1000px) {
+  label {
+    display: none;
+  }
 
   input#menu-hamburguesa ~ ul {
     position: static;
