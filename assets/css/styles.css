@@ -152,7 +152,9 @@ nav > ul > li {
   animation-direction: alternate-reverse;
   animation-fill-mode: forwards;
   animation-play-state: running;
+  object-fit: cover;
 }
+
 
 footer {
   background-color: var(--main-color);
