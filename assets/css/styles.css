@@ -30,8 +30,9 @@ body {
 .header-logo {
   display: flex;
   position: absolute;
-  max-width: 22vh;
-  padding-left: 2.3rem;
+  max-width: 38vh;
+  padding-left: 2.4rem;
+  padding-top: .2rem;
 }
 
 nav {
