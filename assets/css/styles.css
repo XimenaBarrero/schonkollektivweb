@@ -90,6 +90,7 @@ nav > ul > li {
   background-position: center;
   height: 45em;
   animation: change 18s infinite ease-in-out;
+  transition: 5s;
 }
 
 footer {
