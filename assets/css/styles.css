@@ -208,23 +208,23 @@ footer {
 
 @keyframes change {
   0% {
-    background-image: url(../images/backone.jpg);
+    background-image: url(../images/backsix.jpg);
   }
   20% {
     background-image: url(../images/backtwo.jpg);
 
   }
   40% {
-    background-image: url(../images/backthree.jpeg);
+    background-image: url(../images/backfive.jpg);
   }
   60% {
     background-image: url(../images/backfour.jpg);
   }
   80% {
-    background-image: url(../images/backfive.jpg);
+    background-image: url(../images/backthree.jpeg);
   }
   100% {
-    background-image: url(../images/backsix.jpg);
+    background-image: url(../images/backone.jpg);
   }
 }
 
