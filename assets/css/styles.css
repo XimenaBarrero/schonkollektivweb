@@ -31,7 +31,7 @@ body {
   display: flex;
   position: absolute;
   max-width: 38vh;
-  padding-left: 2.4rem;
+  padding-left: 1.8rem;
   padding-top: 0.2rem;
 }
 
@@ -204,22 +204,22 @@ footer {
 
 @keyframes change {
   0% {
-    background-image: url(../images/5T2A6080.jpg);
+    background-image: url(../images/backone.jpg);
   }
   20% {
-    background-image: url(../images/5T2A6037.jpg);
+    background-image: url(../images/backtwo.jpg);
   }
   40% {
-    background-image: url(../images/5T2A5988.jpg);
+    background-image: url(../images/backthree.jpeg);
   }
   60% {
-    background-image: url(../images/IMG_1670.jpeg);
+    background-image: url(../images/backfour.jpg);
   }
   80% {
-    background-image: url(../images/IMG_2074.jpg);
+    background-image: url(../images/backfive.jpg);
   }
   100% {
-    background-image: url(../images/5T2A5928.jpg);
+    background-image: url(../images/backsix.jpg);
   }
 }
 
