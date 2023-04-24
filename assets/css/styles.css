@@ -225,7 +225,7 @@ footer {
   }
 }
 
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 880px) {
   label {
     display: none;
   }
