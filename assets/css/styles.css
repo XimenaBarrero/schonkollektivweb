@@ -4,6 +4,7 @@
   box-sizing: border-box;
   font-family: "Inter", sans-serif;
   font-weight: lighter;
+  background-color: var(--main-color);
 }
 html {
   line-height: 1.15;
