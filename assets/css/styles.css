@@ -89,8 +89,12 @@ nav > ul > li {
   background-size: cover;
   background-position: center;
   height: 45em;
-  animation: change 18s infinite ease-in-out;
-  transition: 5s;
+  transition: 3s;
+  animation: change 28s infinite ease-in-out;
+  animation-direction: alternate-reverse;
+  animation-fill-mode: forwards;
+  animation-play-state: running;
+
 }
 
 footer {
