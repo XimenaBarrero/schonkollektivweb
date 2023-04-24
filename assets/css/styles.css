@@ -31,7 +31,6 @@ body {
   display: flex;
   position: absolute;
   max-width: 35vh;
-  padding-left: .8rem;
   padding-top: 0.2rem;
 }
 
