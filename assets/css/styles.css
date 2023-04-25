@@ -138,6 +138,11 @@ nav > ul > li > a > img{
   width: 280px;
   max-width: 280px;
 }
+
+.hover1:hover{
+    background: url(../images/hover1.jpg);
+}
+
 .article {
   padding-bottom: 3rem;
 }
