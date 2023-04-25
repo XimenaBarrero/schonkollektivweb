@@ -299,3 +299,22 @@ footer {
     justify-items: center;
   
 }
+
+/*Especificaciones contacto*/
+.contacto-container{
+    padding-left: 3rem;
+    padding-top: 30vh;
+    display: flex;
+   justify-content: center;
+   flex-direction: column;
+   width: 80%;
+   height: 80%;
+
+}
+
+.contacto-container div{
+    display: flex;
+    
+    justify-items: center;
+    color: var(--dark-color);
+}
