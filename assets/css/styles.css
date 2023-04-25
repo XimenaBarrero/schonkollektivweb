@@ -129,7 +129,7 @@ nav > ul > li {
   width: 20px;
 }
 
-nav > ul > li > img{
+nav > ul > li > a > img{
     width: 80%;
     height: auto;
   }
@@ -274,7 +274,7 @@ footer {
         font-size: 1rem;
       }
 
-      nav > ul > li > img{
+      nav > ul > li > a > img{
         display: none;
       }
 
