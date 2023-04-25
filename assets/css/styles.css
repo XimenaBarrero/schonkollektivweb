@@ -129,6 +129,11 @@ nav > ul > li {
   width: 20px;
 }
 
+nav > ul > li > img{
+    width: 80%;
+    height: auto;
+  }
+
 .chica {
   width: 280px;
   max-width: 280px;
