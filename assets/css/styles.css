@@ -310,12 +310,27 @@ footer {
    flex-direction: column;
    width: 80%;
    height: 80%;
-
 }
 
 .contacto-container div{
     display: flex;
-    
+    justify-items: center;
+    color: var(--dark-color);
+}
+
+/*Especificaciones preguntas frecuentes*/
+
+.preguntas-container{
+    padding-left: 3rem;
+    display: flex;
+   justify-content: center;
+   flex-direction: column;
+   width: 80%;
+   height: 80%;
+}
+
+.preguntas-container div{
+    display: flex;
     justify-items: center;
     color: var(--dark-color);
 }
