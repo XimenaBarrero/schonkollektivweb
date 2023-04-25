@@ -280,10 +280,12 @@ footer {
 
 /*Especificaciones nosotros*/
 .nosotros-container{
+    padding-left: 3rem;
     display: flex;
-   align-items: center;
    justify-content: center;
    flex-direction: column;
+   width: 80%;
+   height: 80%;
 
 }
 
@@ -291,6 +293,6 @@ footer {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    width: 80%;
-    height: 80%;
+    justify-items: center;
+  
 }
