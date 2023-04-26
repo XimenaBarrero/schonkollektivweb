@@ -142,6 +142,13 @@ nav > ul > li > a > img{
 
 .hover1:hover{
     background: url(../images/hover1.jpg);
+<<<<<<< HEAD
+=======
+}
+
+.article {
+  padding-bottom: 3rem;
+>>>>>>> ba43b0a4019b4fba47415888dc52771539799b78
 }
 
 .contenedorPares {
