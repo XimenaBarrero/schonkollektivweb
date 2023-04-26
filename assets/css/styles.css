@@ -116,6 +116,7 @@ nav > ul > li {
   padding-top: 1rem;
 }
 */
+
 .nav-menu li a {
   display: flex;
   text-decoration: none;
@@ -138,15 +139,59 @@ nav > ul > li > a > img{
   width: 280px;
   max-width: 280px;
 }
-.article {
-  padding-bottom: 3rem;
+
+.hover1:hover{
+    background: url(../images/hover1.jpg);
 }
 
 .contenedorPares {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  padding-left: 12vw;
+display: flex;
+flex-wrap: wrap;
+position: relative;
+flex-direction: column;
+
+margin-left: 7vw;
+
+}
+
+.contenedorPares a{
+    display: flex;
+    flex-direction: column;
+}
+.icon-social{
+    display: flex;
+    position: relative;
+    width: 45rem;
+    }
+
+.contenedorPares a img{
+    display: flex;
+    width: 45rem;
+}
+
+.icon-social img:last-child{
+display: none;
+}
+
+.icon-social:hover img:last-child{
+    display: block;
+}
+
+.icon-social:hover img:first-child{
+    display:none
+}
+
+.top-img{
+    position: absolute;
+    opacity: 0;
+    transition: all .5s ease;
+    width: 45rem;
+   
+}
+.top-img:hover{
+    position: absolute;
+    opacity: 1;
+    width: 45rem;
 }
 
 .back-img-container {
@@ -156,9 +201,9 @@ nav > ul > li > a > img{
   background-attachment: fixed;
   background-size: cover;
   background-position: center;
-  height: 45em;
-  transition: 3s;
-  animation: change 28s infinite ease-in-out;
+  width: 85rem;
+  transition: 2s;
+  animation: change 30s infinite ease-in-out;
   animation-direction: alternate-reverse;
   animation-fill-mode: forwards;
   animation-play-state: running;
@@ -175,6 +220,7 @@ footer {
   padding: 1.5rem 0;
   display: flex;
   flex-direction: row;
+  bottom: 0;
 }
 
 .footer-inner {
@@ -192,6 +238,7 @@ footer {
   display: flex;
   flex-direction: column;
 }
+
 .footer-inner ul {
   align-items: center;
   display: flex;
@@ -215,7 +262,6 @@ footer {
 }
 .article-list-inner {
   max-width: 992px;
-  margin: 0 auto;
 }
 
 @keyframes change {
@@ -240,58 +286,8 @@ footer {
   }
 }
 
-@media screen and (min-width:680px) {
-
-  input#menu-hamburguesa ~ ul {
-    position: static;
-    background-color: transparent;
-    display: flex;
-    flex-direction: row;
-    height: auto;
-    justify-content: flex-end;
-  }
-
-  nav > ul > li > a {
-    text-decoration: none;
-    transition: border-bottom 0.5s linear;
-    padding: 0.5rem 1rem;
-    border-bottom: 2px solid transparent;
-    margin: bottom 2px;
-  }
-
-  nav > ul > li > a > img{
-    display: none;
-  }
-
-  nav > ul > li > a:hover {
-    border-bottom: 1px solid var(--accent-color);
-  }
-  nav > ul > li:nth-child(1) {
-    margin-top: 5.5vh;
-  }
-}
-
-@media screen and (min-width: 1000px) {
-
-    nav > ul > li {
-        margin-top: 5vh;
-        font-size: 1rem;
-      }
-
-      nav > ul > li > a > img{
-        display: none;
-      }
-
-  .contenedorPares {
-    flex-direction: row;
-    padding: 4rem;
-    justify-content: space-between;
-  }
-
-  .chica {
-    width: 400px;
-    max-width: 400px;
-  }
+.contenedorPares:last-child{
+    justify-content: center;
 }
 
 
@@ -347,3 +343,60 @@ footer {
     justify-items: center;
     color: var(--dark-color);
 }
+
+@media screen and (min-width: 1000px) {
+
+}
+
+@media screen and (min-width:680px) {
+    input#menu-hamburguesa ~ ul {
+      position: static;
+      background-color: transparent;
+      display: flex;
+      flex-direction: row;
+      height: auto;
+      justify-content: flex-end;
+    }
+  
+    nav > ul > li > a {
+      text-decoration: none;
+      transition: border-bottom 0.5s linear;
+      padding: 0.5rem 1rem;
+      border-bottom: 2px solid transparent;
+      margin: bottom 2px;
+    }
+  
+    nav > ul > li > a > img{
+      display: none;
+    }
+  
+    nav > ul > li > a:hover {
+      border-bottom: 1px solid var(--accent-color);
+    }
+    nav > ul > li:nth-child(1) {
+      margin-top: 5.5vh;
+    }
+  }
+  
+  @media screen and (min-width: 880px) {
+      nav > ul > li {
+          margin-top: 5vh;
+          font-size: 1rem;
+        }
+  
+        nav > ul > li > a > img{
+          display: none;
+        }
+  
+    .contenedorPares {
+      flex-direction: row;
+      justify-content: center;
+    }
+  
+    .chica {
+      width: 30rem;
+      max-width: 30rem;
+      object-fit: cover;
+    justify-content: space-between;
+    }
+  }
