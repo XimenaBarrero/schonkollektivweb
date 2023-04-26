@@ -142,13 +142,10 @@ nav > ul > li > a > img{
 
 .hover1:hover{
     background: url(../images/hover1.jpg);
-<<<<<<< HEAD
-=======
 }
 
 .article {
   padding-bottom: 3rem;
->>>>>>> ba43b0a4019b4fba47415888dc52771539799b78
 }
 
 .contenedorPares {
@@ -203,7 +200,7 @@ display: none;
 
 .back-img-container {
     display: block;
-  background: url("../images/5T2A6080.jpg");
+  background: url("../images/backone.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
