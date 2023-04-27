@@ -370,13 +370,19 @@ footer {
       margin: bottom 2px;
     }
   
+   
     nav > ul > li > a > img{
-      display: none;
+      visibility: hidden;
     }
   
     nav > ul > li > a:hover {
       border-bottom: 1px solid var(--accent-color);
     }
+
+    .letras-menu > li > a > img{
+      display: none;
+    }
+
     nav > ul > li:nth-child(1) {
       margin-top: 5.5vh;
     }
