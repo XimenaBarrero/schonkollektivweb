@@ -198,14 +198,14 @@ display: none;
     width: 45rem;
 }
 
-.back-img-container {
-    display: block;
-  background: url("../images/backone.jpg");
+.back-img-container{
+  background: url(../images/backone.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
   background-position: center;
   width: 85rem;
+  height: 800px;
   transition: 2s;
   animation: change 30s infinite ease-in-out;
   animation-direction: alternate-reverse;
