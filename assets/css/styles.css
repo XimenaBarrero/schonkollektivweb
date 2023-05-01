@@ -126,7 +126,7 @@ nav > ul > li {
   padding-top: 2rem;
 }
 
-.nav-menu li a img {
+.nav-menu li img {
   width: 20px;
   border: 1px solid var(--accent-color);
 }
