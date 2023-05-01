@@ -207,7 +207,7 @@ display: none;
   width: 100%;
   height: 800px;
   transition: 1s;
-  animation: change 32s infinite ease-in-out;
+  animation: change 32s infinite ease;
   animation-direction: alternate-reverse;
   animation-fill-mode: forwards;
   animation-play-state: running;
