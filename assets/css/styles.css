@@ -126,12 +126,7 @@ nav > ul > li {
   padding-top: 2rem;
 }
 
-.nav-menu li img {
-  width: 20px;
-  border: 1px solid var(--accent-color);
-}
-
-nav > ul > li > a > img{
+nav > ul > li > img{
     width: 80%;
     height: auto;
   }
@@ -349,7 +344,31 @@ footer {
     color: var(--dark-color);
 }
 
-@media screen and (min-width:600px) {
+  
+@media screen and (min-width: 660px) {
+  nav > ul > li {
+      margin-top: 5vh;
+      font-size: 1rem;
+    }
+
+    nav > ul > li > img{
+      display: none;
+    }
+
+.contenedorPares {
+  flex-direction: row;
+  justify-content: center;
+}
+
+.chica {
+  width: 30rem;
+  max-width: 30rem;
+  object-fit: cover;
+justify-content: space-between;
+}
+}
+
+@media screen and (min-width:880px) {
     input#menu-hamburguesa ~ ul {
       position: static;
       background-color: transparent;
@@ -368,42 +387,21 @@ footer {
     }
   
    
-    nav > ul > li > a > img{
+    nav > ul > li > img{
       visibility: hidden;
+      display: none;
     }
   
     nav > ul > li > a:hover {
       border-bottom: 1px solid var(--accent-color);
     }
 
-    .letras-menu > li > a > img{
+    .letras-menu > li > img{
       display: none;
     }
 
     nav > ul > li:nth-child(1) {
       margin-top: 5.5vh;
     }
-  }
-  
-  @media screen and (min-width: 880px) {
-      nav > ul > li {
-          margin-top: 5vh;
-          font-size: 1rem;
-        }
-  
-        nav > ul > li > a > img{
-          display: none;
-        }
-  
-    .contenedorPares {
-      flex-direction: row;
-      justify-content: center;
-    }
-  
-    .chica {
-      width: 30rem;
-      max-width: 30rem;
-      object-fit: cover;
-    justify-content: space-between;
-    }
+
   }
